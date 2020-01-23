@@ -4,8 +4,9 @@
     justify-content: left;
     margin: 0 auto;
     border: 1px groove black;
+  
 }
 
 .copyright{
-
+padding-left: 32px;
 }

@@ -1,11 +1,11 @@
 .footer-cta {
     width: 900px;
-    height: 32px;
-
+    display: flex;
+    justify-content: left;
     margin: 0 auto;
     border: 1px groove black;
 }
 
 .copyright{
-    margin-bottom: 15px;
+
 }

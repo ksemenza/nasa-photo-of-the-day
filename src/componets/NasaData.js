@@ -10,7 +10,7 @@ const NasaData = () => {
 
     useEffect(()=> {
         axios
-        .get(/*"https://api.nasa.gov/planetary/apod?api_key=424Q1GpFyqQq2J3Rdpx4X3ljCNwTHIzabBxSbLtO"*/)
+        .get("https://api.nasa.gov/planetary/apod?api_key=424Q1GpFyqQq2J3Rdpx4X3ljCNwTHIzabBxSbLtO")
         .then(res => {
             console.log(res.data)
             setPhotos(res.data)

@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react"
+
 import "./content.css"
 
 const Content = props => {
@@ -10,8 +11,10 @@ const Content = props => {
              <img alt="Space Image" src={props.url}/>
              </div>
             <div className="desc-wrap">
-                <p className="desc">Description: {props.explanation} </p>
+                <h3>Explanation</h3>
+                <p className="desc">{props.explanation}</p>
             </div>
+            <button id="enlarge"> HD </button>
         </div>
     )
 }

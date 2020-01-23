@@ -1,0 +1,15 @@
+.date-full-wrap{
+    display: flex;
+    margin: 0 auto;
+    width: 900px;
+    height: 32px;
+    justify-content: center;
+    border: 2px solid SlateGrey;
+    border-top: none;
+}
+
+h4{
+    height: 32px;
+    margin: 7px 7px 10px 10px;
+
+}

@@ -4,8 +4,11 @@
 
 .img-cta {
     width: 900px;
-    border: 1px groove black;
+    border: 1px groove steelblue;
+    border-top: none;
     margin: 0 auto;
+    border-top: none;
+    border-bottom: none;
 }
 
 img {
@@ -15,15 +18,21 @@ img {
 }
 
 .desc-wrap {
-    display: flex;
     width: 900px;
-    border: 1px solid gray;
+    border: 1px solid steelblue;
     margin: 0 auto;
     height: 100%;
+    border-top: none;
+}
 
+h3 {
+    border: 2px groove SlateGrey;
+    width: 896px;
+    height: 100%;
+    margin-top: -30px;
 }
 
 .desc{
-    margin-left: 32px;
-
+font-style: italic;
+padding: 32px;
 }

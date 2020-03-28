@@ -1,0 +1,25 @@
+
+/* Entire section */
+.top-header {
+
+}
+/*Wrap around Title and date*/
+.title-date-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 900px;
+    border: 3px groove SteelBlue;
+    padding: -20px;
+}
+
+/*Title*/
+.title{
+
+}
+
+/*Date*/
+.date{
+
+}

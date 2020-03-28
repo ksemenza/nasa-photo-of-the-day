@@ -1,0 +1,38 @@
+.img-desc-cta {
+
+}
+
+.img-cta {
+    width: 900px;
+    border: 1px groove steelblue;
+    border-top: none;
+    margin: 0 auto;
+    border-top: none;
+    border-bottom: none;
+}
+
+img {
+    padding: 32px;
+    width: 85%;
+    height: 100%;
+}
+
+.desc-wrap {
+    width: 900px;
+    border: 1px solid steelblue;
+    margin: 0 auto;
+    height: 100%;
+    border-top: none;
+}
+
+h3 {
+    border: 2px groove SlateGrey;
+    width: 896px;
+    height: 100%;
+    margin-top: -30px;
+}
+
+.desc{
+font-style: italic;
+padding: 32px;
+}

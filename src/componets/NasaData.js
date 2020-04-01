@@ -21,7 +21,7 @@ const NasaData = () => {
         .catch(error =>{
             console.log("data not return", error)
         })
-    }, []);
+    }, [photos]);
     
     useEffect(() => {}, [])
     return <div className="photo">
